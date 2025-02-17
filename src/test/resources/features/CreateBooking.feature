@@ -26,3 +26,4 @@ Feature: To create a new booking in restful-booker
       | dataKey        | JSONFile         |
       | createBooking1 | bookingBody.json |
       | createBooking2 | bookingBody.json |
+
