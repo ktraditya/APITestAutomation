@@ -24,13 +24,13 @@ jobs:
       run: mvn clean test
     - name: Upload execution report
       if: always()
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: report
         path: target/report
     - name: Upload execution logs
       if: always()
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: logs
         path: target/logs
